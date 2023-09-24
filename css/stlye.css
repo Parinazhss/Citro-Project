@@ -140,7 +140,6 @@ header .container .contactinformation-bar {
 @media (min-width: 1200px) {
   header .container .contactinformation-bar {
     display: flex;
-    margin-left: 50px;
   }
 }
 header .container .contactinformation-bar .contant-box {
@@ -218,6 +217,14 @@ header .container .menu .btn-login {
 
 .showcase {
   background-color: #F0EFE9;
+  position: relative;
+  z-index: 0;
+}
+.showcase .background-lines {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: -1;
 }
 .showcase .container {
   display: flex;
@@ -335,4 +342,36 @@ header .container .menu .btn-login {
 .project-and-case .container .center-content {
   margin-top: 50px;
   margin-bottom: 90px;
+}
+
+.newsletter {
+  background-color: #F0EFE9;
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.newsletter .backgroundline-right {
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+}
+.newsletter .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.newsletter .container h2 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+}
+.newsletter .container form input {
+  color: #191919;
+  text-decoration: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  border-radius: 25px;
+  outline: none;
+  border: 1px solid #DAD9D3;
+  margin-right: 20px;
 }
