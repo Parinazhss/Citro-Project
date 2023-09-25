@@ -134,7 +134,7 @@ header .container .logotype {
 header .container .contactinformation-bar {
   grid-area: cib;
   display: none;
-  justify-content: flex-start;
+  justify-content: flex-end;
   align-items: center;
 }
 @media (min-width: 1200px) {
@@ -289,6 +289,17 @@ header .container .menu .btn-login {
   .showcase .container img {
     display: block;
   }
+}
+
+.partner {
+  align-items: center;
+}
+.partner .logopartner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+  padding-top: 95px;
 }
 
 .project-and-case .container .section-title {

@@ -147,8 +147,9 @@ header {
     .contactinformation-bar{
         grid-area: cib;
         display:none;
-        justify-content: flex-start;
+        justify-content:flex-end;
         align-items:center;
+        
        
         
 
@@ -176,7 +177,6 @@ header {
                border: none;
             }
             
-           
           }
     }
     .socialmedia-bar{
@@ -334,6 +334,18 @@ header {
     }
     
 
+}
+.partner { 
+
+      align-items: center;
+    .logopartner{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 150px;
+        padding-top:95px ;
+
+}
 }
 .project-and-case {
     .container{
