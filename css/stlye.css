@@ -134,7 +134,7 @@ header .container .logotype {
 header .container .contactinformation-bar {
   grid-area: cib;
   display: none;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: center;
 }
 @media (min-width: 1200px) {
@@ -300,6 +300,69 @@ header .container .menu .btn-login {
   justify-content: center;
   gap: 150px;
   padding-top: 95px;
+}
+
+.rect {
+  width: 1505px;
+  height: 603px;
+  border: 1px solid #DAD9D3;
+  margin-top: 117px;
+  margin-left: 500px;
+}
+.rect .features {
+  margin-top: 98px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 110px;
+}
+.rect .features .container {
+  margin-top: -50px;
+}
+.rect .features .container p {
+  color: #F94D1C;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+}
+.rect .features .container h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+}
+.rect .features .container a {
+  padding: 12px 160px;
+}
+.rect .textinformation {
+  margin-right: 145px;
+  gap: 50px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-areas: "b1 b2" "b3 b4";
+}
+.rect .textinformation .text-box1 {
+  grid-area: b1;
+}
+.rect .textinformation .text-box2 {
+  grid-area: b2;
+}
+.rect .textinformation .text-box3 {
+  grid-area: b3;
+}
+.rect .textinformation .text-box4 {
+  grid-area: b4;
+}
+.rect .textinformation h4 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+}
+.rect .textinformation p {
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+}
+.rect .textinformation i {
+  margin-bottom: 45px;
 }
 
 .project-and-case .container .section-title {
