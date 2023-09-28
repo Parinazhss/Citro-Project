@@ -53,6 +53,16 @@ html, body {
   color: #191919;
 }
 
+.btn-circle-black {
+  color: #191919;
+}
+.btn-circle-black .fa-2xl {
+  font-size: 3em;
+}
+.btn-circle-black:hover {
+  color: #cbc9c9;
+}
+
 .btn-transparent {
   background-color: transparent;
   border: 1px solid #191919;
@@ -291,78 +301,202 @@ header .container .menu .btn-login {
   }
 }
 
-.partner {
-  align-items: center;
+.container .partner {
+  margin-top: 120px;
 }
-.partner .logopartner {
+.container .partner .logopartner {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 150px;
-  padding-top: 95px;
+  justify-content: space-between;
+  gap: 80px;
 }
 
-.rect {
-  width: 1505px;
-  height: 603px;
+.container .box {
+  width: 1500px;
+  height: 599px;
   border: 1px solid #DAD9D3;
   margin-top: 117px;
-  margin-left: 500px;
 }
-.rect .features {
+.container .box .features {
   margin-top: 98px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-left: 110px;
 }
-.rect .features .container {
+.container .box .features .container {
   margin-top: -50px;
 }
-.rect .features .container p {
+.container .box .features .container p {
   color: #F94D1C;
   font-family: "Inter", sans-serif;
   font-size: 18px;
 }
-.rect .features .container h2 {
+.container .box .features .container h2 {
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
   font-size: 45px;
 }
-.rect .features .container a {
+.container .box .features .container a {
   padding: 12px 160px;
 }
-.rect .textinformation {
+.container .box .textinformation {
   margin-right: 145px;
   gap: 50px;
   display: grid;
   grid-template-columns: auto auto;
   grid-template-areas: "b1 b2" "b3 b4";
 }
-.rect .textinformation .text-box1 {
+.container .box .textinformation .text-box1 {
   grid-area: b1;
 }
-.rect .textinformation .text-box2 {
+.container .box .textinformation .text-box2 {
   grid-area: b2;
 }
-.rect .textinformation .text-box3 {
+.container .box .textinformation .text-box3 {
   grid-area: b3;
 }
-.rect .textinformation .text-box4 {
+.container .box .textinformation .text-box4 {
   grid-area: b4;
 }
-.rect .textinformation h4 {
+.container .box .textinformation h4 {
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
   font-size: 22px;
 }
-.rect .textinformation p {
+.container .box .textinformation p {
   font-family: "Inter", sans-serif;
   font-weight: 200;
   font-size: 16px;
 }
-.rect .textinformation i {
+.container .box .textinformation i {
   margin-bottom: 45px;
+}
+
+.container .about-company {
+  padding-top: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 220px;
+  position: relative;
+}
+.container .about-company img {
+  position: relative;
+  z-index: -1;
+  margin-left: 50px;
+}
+.container .about-company .bluetext {
+  width: 364px;
+  height: 179px;
+  background-color: #BEEBFF;
+  position: absolute;
+  z-index: 0;
+  bottom: 30px;
+}
+.container .about-company .bluetext h5 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+.container .about-company .bluetext p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+.container .about-company .about .title p {
+  color: #F94D1C;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+}
+.container .about-company .about p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+.container .about-company .about h4 {
+  font-family: "DM Snas", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+}
+.container .about-company .about .Intro {
+  display: flex;
+  gap: 10px;
+}
+.container .about-company .about .Intro .intro-video {
+  margin-top: 10px;
+}
+
+.our-service {
+  background-color: #F0EFE9;
+  padding-bottom: 180px;
+}
+.our-service .container {
+  margin-top: 120px;
+}
+.our-service .container .title {
+  padding-top: 120px;
+  padding-bottom: 50px;
+}
+.our-service .container .title p {
+  color: #F94D1C;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+}
+.our-service .container .title h5 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+}
+.our-service .container .parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.our-service .container .parent hr {
+  width: 45px;
+  display: block;
+  margin-top: 45px;
+  margin-left: 30px;
+  color: #191919;
+}
+.our-service .container .parent p {
+  margin-left: 25px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+.our-service .container .parent h5 {
+  margin-left: 25px;
+  margin-top: 40px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+.our-service .container .parent i {
+  align-items: end;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+.our-service .container .parent .box1 {
+  width: 308px;
+  height: 329px;
+  background-color: #ffffff;
+}
+.our-service .container .parent .box2 {
+  width: 308px;
+  height: 329px;
+  background-color: #F9D783;
+}
+.our-service .container .parent .box3 {
+  width: 308px;
+  height: 329px;
+  background-color: #ffffff;
+}
+.our-service .container .parent .box4 {
+  width: 308px;
+  height: 329px;
+  background-color: #ffffff;
+}
+.our-service .center-content {
+  margin-top: 99px;
 }
 
 .project-and-case .container .section-title {
