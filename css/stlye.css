@@ -499,6 +499,68 @@ header .container .menu .btn-login {
   margin-top: 99px;
 }
 
+.choose .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.choose .container .title {
+  margin-top: 120px;
+  position: relative;
+}
+.choose .container .title .red-title p {
+  color: red;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  position: relative;
+  left: -1px;
+}
+.choose .container .title .red-title h2 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  position: relative;
+  bottom: 40px;
+}
+.choose .container .title img {
+  position: relative;
+  top: 15px;
+}
+.choose .container .title h5 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  position: relative;
+  left: 90px;
+  bottom: 50px;
+}
+.choose .container .title p {
+  color: black;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  position: relative;
+  left: 90px;
+  bottom: 50px;
+}
+.choose .container .parent {
+  position: relative;
+}
+.choose .container .parent .image {
+  position: absolute;
+  z-index: 0;
+  bottom: 100px;
+  left: 100px;
+}
+.choose .container .parent .back-box {
+  background-color: #F0EFE9;
+  width: 1250px;
+  height: 415px;
+  position: absolute;
+  left: -600px;
+  top: -50px;
+  z-index: -1;
+}
+
 .project-and-case .container .section-title {
   text-align: center;
 }
@@ -550,6 +612,56 @@ header .container .menu .btn-login {
 .project-and-case .container .center-content {
   margin-top: 50px;
   margin-bottom: 90px;
+}
+
+.meet-our-team {
+  background-color: #F0DF82;
+}
+.meet-our-team .container {
+  padding-top: 100px;
+}
+.meet-our-team .container .title {
+  position: relative;
+}
+.meet-our-team .container .title p {
+  color: #F94D1C;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+}
+.meet-our-team .container .title h3 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+}
+.meet-our-team .container .title .btn-transparent {
+  position: relative;
+  left: 85%;
+  bottom: 40px;
+}
+.meet-our-team .container .four-pictures {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+.meet-our-team .container .four-pictures h5 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  padding-top: 15px;
+}
+.meet-our-team .container .four-pictures p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+.meet-our-team .container .punkter {
+  position: relative;
+  left: 45%;
+}
+.meet-our-team .container .parent .box {
+  width: 1520px;
+  height: 887;
+  background-color: #ffffff;
 }
 
 .newsletter {

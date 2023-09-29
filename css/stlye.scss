@@ -642,14 +642,96 @@ header {
     }
 }
 
+.choose {
+   
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+       .title{
+           margin-top: 120px;
+           position: relative;
+        .red-title{
+            p{
+                color: red;
+                font-family:'Inter', sans-serif;
+                font-size: 18px;
+                position: relative;
+               left: -1px;
+                
+            }
+
+            h2{
+                font-family:'DM Sans', sans-serif;
+                font-size: 45px;
+                font-weight: 700;
+                position: relative;
+                bottom: 40px;
+
+              }  
+        }
+            
+            img{
+                position: relative;
+                top: 15px;
+            }
+            h5{
+                font-family:'DM Sans', sans-serif;
+                font-size: 22px;
+                font-weight: 700;
+                position: relative;
+                left: 90px;
+                bottom: 50px;
+
+            }
+
+              p{
+                color: black;
+                font-family:'Inter', sans-serif;
+                font-size: 16px;
+                position: relative;
+                left: 90px;
+                bottom: 50px;
+               }
+
+              
+       }
+       .parent{
+         position: relative;
+        
+         
+        .image{
+            position: absolute;
+            z-index: 0;
+            bottom: 100px;
+            left: 100px;
+            
+        }
+        .back-box{
+            
+            background-color: #F0EFE9;
+            width: 1250px ;
+            height: 415px;
+            
+
+            position: absolute;
+            left: -600px;
+            top: -50px;
+            z-index: -1;
+            
+        
+    }
+      }  
+
+      
+
+    }
 
 
 
-
-
-
-
-
+}
 
 .project-and-case {
     .container{
@@ -720,6 +802,77 @@ header {
          }
          
     }
+
+}
+
+.meet-our-team{
+    background-color: #F0DF82;
+    
+    .container{
+        padding-top: 100px;
+    
+       
+        
+        .title{
+          position: relative;
+            p{
+                color: #F94D1C;
+                font-family:'Inter', sans-serif;
+                font-size: 18px;
+                
+
+            }
+            h3{
+                font-family:'DM Sans', sans-serif;
+                font-size: 45px;
+                font-weight: 700;
+
+            }
+            .btn-transparent{
+
+              position: relative;
+              left: 85%;
+              bottom: 40px;
+            }
+        }
+         
+        .four-pictures{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 50px;
+
+            h5{
+                font-family:'DM Sans', sans-serif;
+                font-size: 22px;
+                font-weight: 700;
+                padding-top: 15px;
+  
+            }
+            p{
+                font-family:'Inter', sans-serif;
+                font-size: 16px;
+                
+
+            }
+        }
+
+
+
+        .punkter{
+            position: relative;
+            left: 45%;
+        }
+
+        .parent{
+            .box{
+                width: 1520px ;
+                height: 887;
+                background-color: #ffffff;
+            }
+        }
+    }
+
 
 }
 
