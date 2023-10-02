@@ -807,6 +807,8 @@ header {
 
 .meet-our-team{
     background-color: #F0DF82;
+   
+    height: 1969px ;
     
     .container{
         padding-top: 100px;
@@ -866,15 +868,163 @@ header {
 
         .parent{
             .box{
-                width: 1520px ;
-                height: 887;
+                width: 1525px ;
+                height: 909px;
                 background-color: #ffffff;
+                position: relative;
+               
+
+                
+
+                .title{ 
+                    padding-top: 5%;
+                   
+                   p{
+                    position: absolute;
+                    right: 50%;
+                   }
+                   h3{
+                    position: absolute;
+                    right: 40%;
+                    top: 100px;
+                    font-family:'DM Sans', sans-serif;
+                    font-size: 45px;
+                     font-weight: 700;
+                   }
+                }
+
+                .text{
+
+                    
+                    padding-top: 80px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    position: relative;
+                    left: 30px;
+
+                    img{
+                     position: absolute;
+                     top: 30px;
+                    }
+                    
+                }
+
+                .client{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    margin-left: 3%;
+                    margin-top: 4%;
+                    position: relative;
+                    
+
+                    p{
+                        
+                        color: #F94D1C;
+                        font-family:'Inter', sans-serif;
+                        font-size: 16px;
+                        position: absolute;
+                        margin-top: 40px;
+                        margin-left: 20%;
+
+                    }
+                    h5{
+                        font-family:'DM Sans', sans-serif;
+                        font-size: 22px;
+                        font-weight: 700;
+                        position: absolute;
+                        margin-left: 94px;
+                    }
+                    img{
+                       
+                    }
+                }
+
+                
             }
+            .center-content{
+                margin-top: 199px;
+                margin-right: 5%;
+            }
+
         }
+        
     }
+    
 
 
 }
+ 
+.article-news{
+    .container{
+        .section-title{
+            p{
+                font-family:'Inter', sans-serif;
+                font-size: 18px;
+                color: #F94D1C;
+                
+
+            }
+            h2{
+                font-family:'DM Sans', sans-serif;
+                font-size: 45px;
+                font-weight: 700;
+              
+
+            }
+            .btn-transparent{
+            
+              position: relative;
+              left: 85%;
+              bottom: 40px;
+                
+
+            }
+        }
+
+        .article-news{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 30px;
+
+            .article{
+                display: grid;
+                 grid-template-columns: 1fr;
+                 grid-template-rows: auto 1fr auto;
+                 color: #191919;
+                 text-decoration: none;
+
+
+                 p{
+                    font-family: 'Inter', sans-serif;
+                    font-size: 16px;
+                    
+
+                 }
+                 h5{
+                    font-family: 'DM Sans', sans-serif;
+                    font-weight: 700;
+                    font-size: 22px;
+                 }
+
+                 img{
+                    margin-bottom: 20px;
+                 }
+            }
+
+        }
+
+        .punkter{
+            margin-left: 40%;
+        }
+
+
+
+
+    }
+}
+
+
 
 .newsletter{
     background-color: #F0EFE9;
@@ -917,4 +1067,101 @@ header {
 
         }
     }
+}
+
+.footer{
+    background-color: #0E1021;
+    height: 600px;
+    align-items: center;
+    padding-top: 135px;
+    position: relative;
+    z-index: 0;
+    .background-lines {
+        position: absolute;
+        bottom: 105px;
+        right: 0px;
+        z-index: -1;
+ }
+
+    .container{
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+        gap: 150px;
+        
+      
+       
+        .logotype{
+           
+
+            p{
+                color: #ffffff;
+                font-family: 'Inter' , sans-serif;
+            font-size: 16px;
+            margin-top: 5%;
+           
+            }
+        }
+        
+       .menu{
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr 1fr;
+         gap: 50px;
+
+            p{
+                color: #ffffff;
+                font-family: 'Inter' , sans-serif;
+                 font-size: 16px;
+          
+               
+            }
+            h5{
+                color: #ffffff;
+                font-family: 'DM Sans' , sans-serif;
+                font-size: 22px;
+                font-weight: 700;
+            }
+            a{
+                text-decoration: none;
+            }
+         
+       }
+
+       
+
+
+
+    }
+
+    .last-bar {
+        border: 1px solid #666666;
+        margin-top: 116px;
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       
+        
+        
+        .socialmedia-bar{
+            margin-right: 31%;
+            gap: 30px;
+
+            i{
+                font-size: 1.5em;
+               color: #ffffff;
+               
+              
+                
+                
+            }
+        }
+        p{
+            color: #ffffff;
+            margin-left: 31%;
+            font-family: 'Inter' , sans-serif;
+             font-size: 16px;
+        }
+       }
+
 }
