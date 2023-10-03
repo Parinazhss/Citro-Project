@@ -874,3 +874,67 @@ header .container .menu .btn-login {
   font-family: "Inter", sans-serif;
   font-size: 16px;
 }
+
+.showcase-contact {
+  background-color: #F0EFE9;
+  padding: 100px;
+  position: relative;
+  z-index: 0;
+}
+.showcase-contact .background-lines {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: -1;
+}
+.showcase-contact .container .title p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+.showcase-contact .container .title h1 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.contact-box {
+  margin-top: 80px;
+}
+.contact-box .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: relative;
+  text-align: center;
+}
+.contact-box .container .border {
+  width: 320px;
+  height: 206px;
+}
+.contact-box .container .icon {
+  position: relative;
+}
+.contact-box .container .icon i {
+  font-size: 45px;
+  position: absolute;
+  top: 60px;
+  left: 40px;
+}
+.contact-box .container p {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  position: relative;
+  left: 100px;
+  text-align: left;
+  top: 30%;
+}
+.contact-box .container h5 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  left: 100px;
+  text-align: left;
+  top: 30%;
+  position: relative;
+}
