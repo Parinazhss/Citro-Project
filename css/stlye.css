@@ -153,11 +153,10 @@ header .container .contactinformation-bar {
   }
 }
 header .container .contactinformation-bar .contant-box {
-  padding-right: 30px;
   margin-right: 30px;
   border-right: 1px solid #DAD9D3;
   font-family: "Inter", sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 300;
 }
 header .container .contactinformation-bar .contant-box i {
@@ -308,24 +307,20 @@ header .container .menu .btn-login {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 80px;
 }
 
 .container .box {
-  width: 1500px;
+  width: 1090px;
   height: 599px;
   border: 1px solid #DAD9D3;
   margin-top: 117px;
 }
 .container .box .features {
-  margin-top: 98px;
+  margin-top: -10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 110px;
-}
-.container .box .features .container {
-  margin-top: -50px;
+  margin-left: 40px;
 }
 .container .box .features .container p {
   color: #F94D1C;
@@ -341,8 +336,8 @@ header .container .menu .btn-login {
   padding: 12px 160px;
 }
 .container .box .textinformation {
-  margin-right: 145px;
-  gap: 50px;
+  margin-top: 70px;
+  gap: 20px;
   display: grid;
   grid-template-columns: auto auto;
   grid-template-areas: "b1 b2" "b3 b4";
@@ -369,7 +364,7 @@ header .container .menu .btn-login {
   font-weight: 200;
   font-size: 16px;
 }
-.container .box .textinformation i {
+.container .box .textinformation img {
   margin-bottom: 45px;
 }
 
@@ -428,6 +423,14 @@ header .container .menu .btn-login {
 .our-service {
   background-color: #F0EFE9;
   padding-bottom: 180px;
+  position: relative;
+  z-index: -1;
+}
+.our-service .background-lines {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  z-index: 0;
 }
 .our-service .container {
   margin-top: 120px;
@@ -450,6 +453,7 @@ header .container .menu .btn-login {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 10px;
 }
 .our-service .container .parent hr {
   width: 45px;
@@ -548,12 +552,15 @@ header .container .menu .btn-login {
 .choose .container .parent .image {
   position: absolute;
   z-index: 0;
-  bottom: 100px;
-  left: 100px;
+  bottom: 60px;
+  left: 60px;
+}
+.choose .container .parent .image img {
+  width: 600px;
 }
 .choose .container .parent .back-box {
   background-color: #F0EFE9;
-  width: 1250px;
+  width: 900px;
   height: 415px;
   position: absolute;
   left: -600px;
@@ -644,6 +651,10 @@ header .container .menu .btn-login {
   justify-content: space-between;
   align-items: center;
   padding-top: 50px;
+  gap: 20px;
+}
+.meet-our-team .container .four-pictures .picture img {
+  width: 250px;
 }
 .meet-our-team .container .four-pictures h5 {
   font-family: "DM Sans", sans-serif;
@@ -660,7 +671,7 @@ header .container .menu .btn-login {
   left: 45%;
 }
 .meet-our-team .container .parent .box {
-  width: 1525px;
+  width: 1125px;
   height: 909px;
   background-color: #ffffff;
   position: relative;
@@ -674,23 +685,23 @@ header .container .menu .btn-login {
 }
 .meet-our-team .container .parent .box .title h3 {
   position: absolute;
-  right: 40%;
+  right: 35%;
   top: 100px;
   font-family: "DM Sans", sans-serif;
   font-size: 45px;
   font-weight: 700;
 }
 .meet-our-team .container .parent .box .text {
-  padding-top: 80px;
+  padding-top: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: relative;
-  left: 30px;
+  left: 10px;
 }
 .meet-our-team .container .parent .box .text img {
   position: absolute;
-  top: 30px;
+  top: 60px;
 }
 .meet-our-team .container .parent .box .client {
   display: grid;
@@ -712,7 +723,7 @@ header .container .menu .btn-login {
   font-size: 22px;
   font-weight: 700;
   position: absolute;
-  margin-left: 94px;
+  margin-left: 75px;
 }
 .meet-our-team .container .parent .center-content {
   margin-top: 199px;
@@ -757,6 +768,7 @@ header .container .menu .btn-login {
 }
 .article-news .container .article-news .article img {
   margin-bottom: 20px;
+  width: 370px;
 }
 .article-news .container .punkter {
   margin-left: 40%;
@@ -770,7 +782,7 @@ header .container .menu .btn-login {
 }
 .newsletter .backgroundline-right {
   position: absolute;
-  bottom: 50px;
+  bottom: 0px;
   right: 0;
 }
 .newsletter .container {
@@ -804,7 +816,7 @@ header .container .menu .btn-login {
 }
 .footer .background-lines {
   position: absolute;
-  bottom: 105px;
+  bottom: 145px;
   right: 0px;
   z-index: -1;
 }
@@ -823,12 +835,12 @@ header .container .menu .btn-login {
 .footer .container .menu {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 50px;
+  gap: 20px;
 }
 .footer .container .menu p {
   color: #ffffff;
   font-family: "Inter", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
 }
 .footer .container .menu h5 {
   color: #ffffff;
@@ -848,15 +860,17 @@ header .container .menu .btn-login {
 }
 .footer .last-bar .socialmedia-bar {
   margin-right: 31%;
+  margin-right: 50px;
   gap: 30px;
 }
 .footer .last-bar .socialmedia-bar i {
   font-size: 1.5em;
   color: #ffffff;
+  margin-right: 10px;
 }
 .footer .last-bar p {
   color: #ffffff;
-  margin-left: 31%;
+  margin-left: 21%;
   font-family: "Inter", sans-serif;
   font-size: 16px;
 }

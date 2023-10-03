@@ -39,7 +39,7 @@ html, body {
 
     }
   }
-    .btn-black{
+.btn-black{
         background-color:  #191919;
         border: 1px solid #191919;
         color:#ffffff;
@@ -130,14 +130,15 @@ html, body {
 }
 header {
     background-color:#F0EFE9;
-    padding:16px;
 
+    padding:16px;
+    
 
    .container {
     display: grid;
     align-items: center;
     column-gap: 70px;
-    grid-template-columns: 1fr auto;
+    grid-template-columns: 1fr  auto;
     grid-template-areas: "logo bars";
                          
     
@@ -180,11 +181,11 @@ header {
 
         .contant-box {
             
-            padding-right: 30px;
+            // padding-right: 30px;
             margin-right: 30px;
             border-right: 1px solid #DAD9D3;
             font-family: 'Inter', sans-serif;
-            font-size: 15px;
+            font-size: 14px;
             font-weight: 300;
 
             i{
@@ -359,10 +360,11 @@ header {
     .partner { 
        margin-top: 120px;
       .logopartner{
-          display: flex;
+         display: flex;
           align-items: center;
           justify-content: space-between;
-          gap: 80px;
+         
+          
         
 
   }
@@ -371,11 +373,12 @@ header {
 
 // features section
 .container {
+   
     
     .box {
        
-
-        width: 1500px;
+        
+        width: 1090px;
         height: 599px;
         border: 1px solid #DAD9D3;
        
@@ -384,16 +387,16 @@ header {
         
     
     .features {
-            margin-top: 98px;
+             margin-top: -10px;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-left: 110px;
+            margin-left: 40px;
             
             
     
        .container{
-           margin-top: -50px;
+        
              
          p{
             color: #F94D1C;
@@ -415,8 +418,8 @@ header {
     
     }
     .textinformation {
-       margin-right: 145px;
-       gap: 50px;
+      margin-top: 70px;
+       gap: 20px;
         display: grid;
         
         
@@ -450,7 +453,7 @@ header {
                 font-weight: 200;
                 font-size: 16px;
                }
-                i{
+                img{
                     margin-bottom: 45px;
                 }
     
@@ -542,6 +545,15 @@ header {
 .our-service{
     background-color: #F0EFE9;
     padding-bottom: 180px;
+    position: relative;
+    z-index: -1;
+
+    .background-lines {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        z-index: 0;
+ }
 
     .container{
         margin-top: 120px;
@@ -575,6 +587,7 @@ header {
             display: flex;
             justify-content: space-between;
             align-items: center;
+            gap: 10px;
 
             hr {
                 width: 45px;
@@ -705,14 +718,18 @@ header {
         .image{
             position: absolute;
             z-index: 0;
-            bottom: 100px;
-            left: 100px;
+            bottom: 60px;
+            left: 60px;
+            img{
+                width: 600px;
+            }
+            
             
         }
         .back-box{
             
             background-color: #F0EFE9;
-            width: 1250px ;
+            width: 900px ;
             height: 415px;
             
 
@@ -843,12 +860,20 @@ header {
             justify-content: space-between;
             align-items: center;
             padding-top: 50px;
+            gap: 20px;
+            .picture{
+                img{
+                    width: 250px;
+                }
+            }
+             
 
             h5{
                 font-family:'DM Sans', sans-serif;
                 font-size: 22px;
                 font-weight: 700;
                 padding-top: 15px;
+                
   
             }
             p{
@@ -863,12 +888,12 @@ header {
 
         .punkter{
             position: relative;
-            left: 45%;
+             left: 45%;
         }
 
         .parent{
             .box{
-                width: 1525px ;
+                width: 1125px ;
                 height: 909px;
                 background-color: #ffffff;
                 position: relative;
@@ -885,7 +910,7 @@ header {
                    }
                    h3{
                     position: absolute;
-                    right: 40%;
+                    right: 35%;
                     top: 100px;
                     font-family:'DM Sans', sans-serif;
                     font-size: 45px;
@@ -896,16 +921,16 @@ header {
                 .text{
 
                     
-                    padding-top: 80px;
+                    padding-top: 100px;
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
                     position: relative;
-                    left: 30px;
+                    left: 10px;
 
                     img{
                      position: absolute;
-                     top: 30px;
+                     top: 60px;
                     }
                     
                 }
@@ -933,7 +958,7 @@ header {
                         font-size: 22px;
                         font-weight: 700;
                         position: absolute;
-                        margin-left: 94px;
+                        margin-left: 75px;
                     }
                     img{
                        
@@ -1009,6 +1034,7 @@ header {
 
                  img{
                     margin-bottom: 20px;
+                    width: 370px;
                  }
             }
 
@@ -1034,7 +1060,7 @@ header {
 
     .backgroundline-right{
         position: absolute;
-        bottom: 50px;
+        bottom: 0px;
         right: 0;
     }
 
@@ -1078,7 +1104,7 @@ header {
     z-index: 0;
     .background-lines {
         position: absolute;
-        bottom: 105px;
+        bottom: 145px;
         right: 0px;
         z-index: -1;
  }
@@ -1106,12 +1132,12 @@ header {
        .menu{
          display: grid;
          grid-template-columns: 1fr 1fr 1fr 1fr;
-         gap: 50px;
+         gap: 20px;
 
             p{
                 color: #ffffff;
                 font-family: 'Inter' , sans-serif;
-                 font-size: 16px;
+                 font-size: 14px;
           
                
             }
@@ -1145,11 +1171,15 @@ header {
         
         .socialmedia-bar{
             margin-right: 31%;
+            margin-right: 50px;
             gap: 30px;
 
             i{
                 font-size: 1.5em;
                color: #ffffff;
+               margin-right: 10px;
+              
+               
                
               
                 
@@ -1158,7 +1188,7 @@ header {
         }
         p{
             color: #ffffff;
-            margin-left: 31%;
+            margin-left: 21%;
             font-family: 'Inter' , sans-serif;
              font-size: 16px;
         }
